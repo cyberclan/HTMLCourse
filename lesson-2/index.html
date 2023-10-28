@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is my first Page in HTML. Later on, it will be with CSS and JavaScript">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Abdullah">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<title>My first Page</title>
+</head>
+<body>
+	<!-- TODO: Add heading elements to the page-->
+	<h1>Hello World</h1> <!-- Tags having starting tag like <h1> and also a closing tag like </h1> or <tagname>...</tagname> -->
+	<h2>Hello World</h2>
+	<h3>Hello World</h3>
+	<h4>Hello World</h4>
+	<h5>Hello World</h5>
+	<h6>Hello World</h6>
+
+	<br> <!-- break -->
+
+	<!-- Paragraph -->
+	<p>This ist <b>paragraph</b></p> <!-- p tag is block element and b tag is inline element -->
+	<p>This ist <i>paragraph</i></p> <!-- italic -->
+	<!-- screen reader -->
+	<p>This ist <em>paragraph</em></p>
+	<p>This ist <strong>paragraph</strong></p>
+
+	<abbr title="Hyber Text Markup Language">HTML</abbr>
+	<abbr title="Cascading Style Sheet">CSS</abbr>
+	<abbr title="JavaScript">JS</abbr>
+
+	<blockquote>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<br><br>
+		Lorem ipsum dolor sit amet, <b>conse&nbsp;ctetur</b> adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco <u>laboris</u> nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</blockquote>
+	<!-- 
+		&nbsp; will make a space
+		<u>underline</u> is for underline of any element
+	-->
+
+	<code>
+		function functionname() {
+			variable = 10;
+		}
+	</code>
+
+	<pre>
+		Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+	</pre>
+
+	<address>
+		Streetname <br>
+		Cityname <br>
+		Code <br>
+	</address>
+
+	<small>this is a small text</small>
+	This is a <sub>normal</sub>Text
+	10<sup>2</sup> is ...
+
+	Today is <time>16:27</time>
+	<time datetime="2023-10-27 20:00">today is friday</time>
+	
+	<!-- hyperlink -->
+	<a href="https://www.google.com" target="_blank">Google</a> <!-- a is an ancor -->
+	<a href="#">This link is going to nowhere</a>
+
+	<br>
+	<a href="https://www.google.com" target="_blank">
+		<img src="img/windows-logo.jpg" alt="This is a logo about Windows" width="500px" height="300px">
+		<!-- meaning names without any space inside 
+			file name.jpg NOT OK
+			file-name.jpg OK
+			filename.jpg
+		-->
+	</a>
+	<!-- 
+		the tag <a>...</a> have to types
+		1. relative
+			<a href="subfolder/filename.jpg">go inside subfolder and grap the filename</a>
+		2. absolute
+			<a href="https://www.websitename.com/page/10/search.html">It's starts always from root</a>
+	-->
+
+	<!-- nesting elements and tags -->
+	<!--
+		<p>... <b>...</b>....</p>
+
+		But this is not valid because of the order: 
+		<p>... <b>...</p>...</b>
+	-->
+</body>
+</html>
