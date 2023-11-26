@@ -1,0 +1,6 @@
+<!--
+  homework 2 for lesson 3
+-->
+Make changes to your website that you already started as it was in lesson 2.
+But this time you should use create a single page for each and link it with eachother.
+You can also create more text or add pictures to your website and jump to that specific area, even it's at the same page or not.
